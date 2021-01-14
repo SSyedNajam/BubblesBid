@@ -1,0 +1,461 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .empty-space{
+      margin-left: 14%;
+      margin-right: 14%;
+      margin-top: -5%;
+      margin-bottom: 10%;
+
+  }
+  h2{
+      display: none;
+  }
+  .first-para{
+      text-align: justify;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      line-height: 150%;
+      letter-spacing: 0.5px;
+      font-weight: 400;
+  }
+  .new-h11{
+    color: #ff6500;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.3;
+    text-align: left;
+  }
+  .second-part{
+      padding-left: 6%;
+  }
+  .special-list-li{
+      list-style: square;
+      text-align: left;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      line-height: 150%;
+      letter-spacing: 0.5px;
+      font-weight: 400;
+      font-size: 16px;
+  }
+  .bottom-list{
+    width: 100%;
+    text-align: left;
+    margin-top: 20%;
+  }
+  /*Image Css Code*/
+.responsive {
+    width: 75%;
+    height: auto;
+    text-align: center;
+    margin-left: 15%;
+  }
+  .part-two-img-form{
+      margin-top: 10%;
+  }
+  .footer-main{
+      margin-top: 65%;
+  }
+  .form-three{
+    float: left;
+    width: 50%;
+  }
+  .fulllenght{
+    width: 100%;
+    position: relative;
+  }
+  .fullnew{
+    width: 100%;
+  }
+  .feilds{
+    padding: 15px 16px 15px 16px;
+    border: 0.5px solid #ededed;
+    border-radius: 5px;
+  }
+  input#email{
+    position: relative;
+    left: -15px;
+  }
+  .form-four{
+    position: static;
+    left: -11px;
+  }
+  input#website{
+    width: 85%;
+    margin-top: 0px;
+  }
+  input.fullnew.feilds.button{
+    width: 85%;
+    margin-top: 10px;
+    border: 1px solid #FF6500;
+    background-color: #FF6500;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  input.fullnew.feilds.button:hover{
+    background-color: #ffffff00;
+    color: #FF6500;
+  }
+  label{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .form-three.halfFifty{
+    width: 42.5%;
+  }
+  .right-list{
+    padding-left: 50px;
+  }
+  .image-class-res{
+    width: 100%;
+  }
+  .form-div-special{
+    width: 100%;
+  }
+  /* Form Icon Code Start */
+  /* enable absolute positioning */
+.inner-addon { 
+  position: relative; 
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+position: absolute;
+padding: 10px;
+pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+.column.form-div-special{
+  width: 23.5%;
+    text-align: center;
+    margin-left: 40.5%;
+    margin-top: -4.5%;
+
+}
+.form-new{
+  padding: 6px 16px 6px 16px;
+  margin-left: 0px;
+  margin-top:   1px;
+  width: 100%;
+  border: 0.5px solid transparent;
+  border-radius: 5px;
+  font-size: 14px;
+}
+::placeholder{
+  color: #fbccb4;
+}
+.left-addon{
+  margin-top: 20px;
+}
+input.form-new.sub-btn{
+  background-color: #FF6500;
+  width: 50%;
+  color: black;
+  font-size: 16px;
+  padding-left: 13px;
+  margin-top: 20px;
+  border: solid 1px #FF6500 ;
+  padding: 10px 10px 10px 10px ;
+}
+input.form-new.sub-btn:hover{
+  background-color: transparent;
+  color: #FF6500;
+}
+.first-one{
+  width: 100%;
+  text-align: justify;
+}
+.footer-padding{
+  padding-top: 220px;
+}
+
+  /* Form Icon Code End */
+  /* Responsive Site Start Here For 1024px */
+   
+  @media screen and (max-width: 1024px) {
+    .empty-space{
+      margin-top: -10%;
+      margin-left: 65px;
+
+    }
+    .image-class-res{
+      margin-top: 5%;
+    }
+    .column.form-div-special{
+      width: 23.5%;
+        text-align: center;
+        margin-left: 40.5%;
+        margin-top: -15.5%;
+    
+    }
+    input.form-new.sub-btn{
+      font-size: 12px;
+      margin-top: -4px;
+    }
+    .bottom-list{
+      margin-top: 10%;
+    }
+    .footer-padding{
+      padding-top: 220px;
+    }
+  }
+  
+
+  /* Responsive Site End Here For 1024px */
+  /* Responsive Site Start Here For 768px */
+   
+  @media screen and (max-width: 768px) {
+    .empty-space{
+      margin-top: -18%;
+      margin-left: 59px;
+
+    }
+    .responsive{
+      width: 85%;
+      margin-left: 12%;
+    }
+    .image-class-res{
+      margin-top: 20%;
+    }
+    .column.form-div-special{
+      width: 23.5%;
+        text-align: center;
+        margin-left: 40.5%;
+        margin-top: -26.5%;
+    
+    }
+    .form-new{
+      padding: 3px 10px 3px 10px;
+      margin-top: -1px;
+      width: 120%;
+    }
+    input.form-new.sub-btn{
+      font-size: 10px;
+      margin-top: -4px;
+      padding-left: 4px;
+    }
+    .bottom-list{
+      margin-top: 5%;
+      margin-left: 45px;
+    }
+    .footer-padding{
+      padding-top: 400px;
+    }
+    .glyphicon{
+      margin-top: -5px;
+    }
+  }
+  
+
+  /* Responsive Site End Here For 768px */
+    /* Responsive Site Start Here For 425px */
+   
+    @media screen and (max-width: 425px) {
+      .empty-space{
+        margin-top: -33%;
+        margin-left: 35px;
+  
+      }
+      .responsive{
+        width: 85%;
+        margin-left: 12%;
+        display: none;
+      }
+      .image-class-res{
+        margin-top: 20%;
+      }
+      .column.form-div-special{
+        width: 100%;
+          text-align: center;
+          margin-left: 0%;
+          margin-top: -5.5%;
+      
+      }
+      .form-new{
+        padding: 3px 10px 3px 10px;
+        margin-top: -1px;
+        width: 120%;
+      }
+      input.form-new.sub-btn{
+        font-size: 10px;
+        margin-top: -4px;
+        padding-left: 4px;
+      }
+      .bottom-list{
+        margin-top: 5%;
+        margin-left: 5px;
+      }
+      .footer-padding{
+        padding-top: 900px;
+      }
+      .glyphicon{
+        margin-top: -5px;
+      }
+      .form-new{
+        padding: 6px 12px 6px 12px;
+      margin-top: 0px;
+      width: 100%;
+      font-size: 14px;
+      border: 1px solid #fbccb4 ;
+      margin-top: -1px;
+      }
+      input.form-new.sub-btn{
+        font-size: 14px;
+        margin-top: -4px;
+        padding-left: 4px;
+      }
+      .left-list{
+        margin-left: 25px;
+      }
+      .right-list{
+        margin-left: -15px;
+        margin-top: -25%;
+
+      }
+    }
+    
+  
+    /* Responsive Site End Here For 425px */
+    /* Responsive Site Start Here For 375px */
+    @media screen and (max-width: 375px) {
+      .empty-space{
+        margin-top: -40%;
+        margin-left: 30px;
+  
+      }
+      .column.form-div-special{
+        width: 100%;
+          text-align: center;
+          margin-left: 0%;
+          margin-top: 10%;
+      
+      }
+      .bottom-list{
+        margin-top: 3%;
+        margin-left: 13px;
+      }
+      .new-h11{
+        font-size: 35px;
+      }
+      .footer-padding{
+        padding-top: 950px;
+      }
+    }
+
+    /* Responsive Site End Here For 320px */
+    @media screen and (max-width: 320px) {
+      .empty-space{
+        margin-top: -60%;
+        margin-left: 40px;
+  
+      }
+      .column.form-div-special{
+        width: 100%;
+          text-align: center;
+          margin-left: 0%;
+          margin-top: 10%;
+      
+      }
+      .bottom-list{
+        margin-top: 3%;
+        margin-left: 13px;
+      }
+      .new-h11{
+        font-size: 35px;
+      }
+      .footer-padding{
+        padding-top: 950px;
+      }
+    }
+
+    /* Responsive Site End Here For 320px */
+  /* Responsive Site Start Here For 360px */
+   
+  @media screen and (max-width: 360px) {
+    .empty-space{
+      margin-top: -40%;
+      margin-left: 20px;
+
+    }
+    .responsive{
+      width: 110%;
+      margin-left: -2%;
+      background-size: cover;
+      display: none;
+    }
+    .image-class-res{
+      margin-top: 120%;
+    }
+    .column.form-div-special{
+      width: 100%;
+        text-align: center;
+        margin-left: 0%;
+        margin-top: -90%;
+    
+    }
+    .form-new{
+      padding: 6px 12px 6px 12px;
+      margin-top: -1px;
+      width: 100%;
+      font-size: 14px;
+      border: 1px solid #fbccb4 ;
+    }
+    input.form-new.sub-btn{
+      font-size: 14px;
+      margin-top: -4px;
+      padding-left: 4px;
+    }
+    .bottom-list{
+      margin-top: 5%;
+      margin-left: 10px;
+    }
+    .mobile-list{
+      margin-left: 0px;
+      margin-top: 0px;
+    }
+    .h1-extra{
+      margin-left:  0px;
+      font-size: 35px;
+    }
+    .footer-padding{
+      padding-top: 280%;
+    }
+    .glyphicon{
+      margin-top: -5px;
+    }
+  }
+  
+
+  /* Responsive Site End Here For 360px */
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+    
+  }
