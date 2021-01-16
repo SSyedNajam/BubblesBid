@@ -230,7 +230,7 @@ input.form-new.sub-btn:hover{
   /* Responsive Site End Here For 1024px */
   /* Responsive Site Start Here For 768px */
    
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 800px) {
     .empty-space{
       margin-top: -18%;
       margin-left: 59px;
